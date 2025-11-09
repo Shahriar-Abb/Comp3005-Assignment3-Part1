@@ -63,7 +63,7 @@ public class Main {
                 }
             }
         }
-        catch(Exception e){
+        catch(Exception e){// Handles errors related with the connection to the postgres server
             System.out.println(e);
         }
     }
@@ -115,3 +115,4 @@ public class Main {
         }
     }
 }
+
